@@ -1,0 +1,70 @@
+form {
+    position: relative;
+    border-radius: 8px;
+    padding: 16px 30px;
+    border: 1px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0e0e0ec2;
+    width: 50%;
+}
+h1 {
+    margin: 32px 0;
+    font-family: "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system;
+    font-weight: normal;
+    text-align: center;
+    color:white;
+}
+form > label {
+    display: block;
+    margin: 24px;
+    width: 120px;
+}
+
+a {
+    color: rgb(var(--pure-material-primary-rgb));
+    text-decoration: none;
+    color: #e8e007;
+}
+a:hover {
+    text-decoration: underline;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;  
+    text-align: center;
+}
+
+.row_text{
+    line-height: 50px;/*Высота строки + верт. центрирования текста*/  
+    color: white; 
+    margin-top: 42px; 
+    width: 240px; /*Фиксируем ширину блока*/
+    margin-left: 80px; 
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+.row_in{
+    padding-top: 50px; 
+    width: 300px; /*Фиксируем ширину блока*/ 
+    margin-right: 20px; 
+}
+
+.row_in input select{
+    display: block;
+    padding-top: 340px;
+}
+
+.tsss{
+    color: black;
+    text-align: center;
+    font-size:x-small;
+    margin: 5px;
+}
